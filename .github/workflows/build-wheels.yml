@@ -48,7 +48,6 @@ jobs:
           rustflags: "-A warnings -A unexpected-cfgs -A unused-macros -A static-mut-refs -A unused-variables -A unused-imports"
           cache: false
       - uses: actions/setup-python@v5
-        if: ${{ !contains(inputs.platform, 'linux') }}
         with:
           python-version: graalpy25.0.2
       - name: Extend Windows PATH
