@@ -17,11 +17,6 @@ name: Build Wheels
           - linux-amd64
           - linux-aarch64
           - macos-aarch64
-          - windows-amd64
-          - self-hosted-linux-amd64
-          - self-hosted-linux-aarch64
-          - self-hosted-macos-aarch64
-          - self-hosted-windows-amd64
 
 jobs:
   build_wheels:
